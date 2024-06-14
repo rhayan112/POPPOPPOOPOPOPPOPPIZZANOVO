@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', serif;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+.justify{
+    display: flex;
+    justify-content: center;
+}
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.hubsonimg{
+    height: 800px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.button {
+    background-color: #141414; /* Cor de fundo */
+    border: none; /* Sem borda */
+/* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem decoração de texto */
+    display: inline-block; /* Exibir como bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 1px 1px; /* Margem */
+    cursor: pointer; /* Cursor do mouse */
+    border-radius: 15px; /* Raio da borda */
+  }
+  
+  /* Alteração de estilo quando o cursor está sobre o botão */
+  .button:hover {
+    background-color: #ffffff70;
+  }
+  
+  /* Alteração de estilo quando o botão é pressionado */
+  .button:active {
+    background-color: #ffffff7e;
+  }
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+}
+.nav{
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+}
+li{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
